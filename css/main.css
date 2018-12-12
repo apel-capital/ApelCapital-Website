@@ -1,0 +1,93 @@
+/* Fonts */
+@font-face {
+	font-family: FuturaMedium;
+  	src: url(../fonts/FuturaMedium.otf);
+  	font-weight: 500;
+}
+
+@font-face{
+	font-family: FuturaBook;
+  	src: url(../fonts/FuturaBook.woff);
+}
+
+/* Body */
+body, html{
+	background-color: rgba(255,255,255,1.0);
+	color: rgba(31,31,31,1.0);
+	font-family: FuturaBook;
+	height: 100%;
+}
+
+/* Navbar */
+.nav-link{
+	color: rgba(31,31,31,.5) !important;
+}
+
+.nav-link:hover,
+.navbar-nav .active>.nav-link{
+	color: rgba(31,31,31,1) !important;
+}
+
+.navbar-brand{
+	font-family: Arial;
+	font-size: 25pt;
+	font-weight: bold;
+}
+
+nav .nav-item{
+	font-family: FuturaMedium;
+	font-size: 11pt;
+
+}
+
+nav .login-btn{
+    background-color: rgba(72,160,218,0.7);
+    color: white;
+    padding: 0 2em;
+}
+
+nav .login-btn:hover{
+	background-color: rgba(72,160,218,1.0);
+}
+
+/* Hero Images */
+.hero-imgs img{
+	width: 99%;
+}
+
+@media (max-width: 767.98px) {
+	.hero-imgs img{
+		width: 100%;
+	}
+}
+
+/* Tag Line Home Page */
+.tag-line, .mobile-tag{
+	font-family: FuturaBook;
+	font-size: 25pt;
+}
+
+.mobile-tag{
+	background-color: rgba(31,31,31,1.0);
+	color: rgba(255,255,255,1.0);
+	font-size: 18pt;
+}
+
+/* Footer */
+footer{
+	border-top: 1px solid rgba(223,223,223,1.0);
+	font-size: 8pt;
+}
+
+footer .privacy{
+	padding-right: 15em;
+}
+
+footer.footer-m{
+	margin-top: 8em !important;
+}
+
+/* Spacer */
+.sm-space{
+	padding: .1em;
+}
