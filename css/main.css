@@ -19,6 +19,13 @@ body, html{
 }
 
 /* Navbar */
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0,0);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .nav-link{
 	color: rgba(31,31,31,.5) !important;
 }
@@ -50,6 +57,73 @@ nav .login-btn:hover{
 	background-color: rgba(72,160,218,1.0);
 }
 
+.login-mobile-holder{
+	background-color: rgba(72,160,218,1.0);
+}
+
+.login-mobile{
+	padding-top: 5px;
+	color: white;
+}
+
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 0;
+  width: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(255,255,255); /* White fallback color */
+  overflow-y: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
 /* Hero Images */
 .hero-imgs img{
 	width: 99%;
@@ -61,7 +135,7 @@ nav .login-btn:hover{
 	}
 }
 
-/* Tag Line Home Page */
+/* Tag Line */
 .tag-line, .mobile-tag{
 	font-family: FuturaBook;
 	font-size: 25pt;
@@ -71,6 +145,14 @@ nav .login-btn:hover{
 	background-color: rgba(31,31,31,1.0);
 	color: rgba(255,255,255,1.0);
 	font-size: 18pt;
+}
+
+.underline-tag{
+	border-bottom: 1px solid rgba(31,31,31,1.0);
+}
+
+.font-medium{
+	font-family: FuturaMedium;
 }
 
 /* Footer */

@@ -12,10 +12,41 @@
     <title>Apel Capital</title>
   </head>
   <body>
+  	<!-- Navbar Overlay  -->
+  	<div id="myNav" class="overlay">
+
+	  <!-- Button to close the overlay navigation -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	  <!-- Overlay content -->
+	  <div class="overlay-content">
+		  <ul class="navbar-nav ml-auto">
+		      <li class="nav-item px-md-2 active">
+		        <a class="nav-link" href="../index.html">HOME</a>
+		      </li>
+		      <li class="nav-item px-md-2 active">
+		        <a class="nav-link" href="./about.html">ABOUT</a>
+		      </li>
+		      <li class="nav-item px-md-2 active">
+		        <a class="nav-link" href="./investments.html">INVESTMENTS</a>
+		      </li>
+		      <li class="nav-item px-md-2 active">
+		        <a class="nav-link" href="./contact.html">CONTACT</a>
+		      </li>
+		      <li class="nav-item px-md-2 active login-mobile-holder">
+		        <a class="nav-link pr-md-0" href="https://corclearing.automatedfinancial.com/secure_login.html" target="_blank">
+		        	<div class="login-btn login-mobile">LOGIN</div>
+		        </a>
+		      </li>
+		    </ul>
+	  </div>
+
+	</div>
+
   	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-lg navbar-light ml-md-5 mr-md-5 mb-4">
 	  <a class="navbar-brand" href="../">APEL CAPITAL</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" onclick="openNav()" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 
@@ -34,7 +65,7 @@
 	        <a class="nav-link" href="contact.html">Contact</a>
 	      </li>
 	      <li class="nav-item px-md-2">
-	        <a class="nav-link pr-md-0" href="#" target="_blank">
+	        <a class="nav-link pr-md-0" href="https://corclearing.automatedfinancial.com/secure_login.html" target="_blank">
 	        	<div class="login-btn">Login</div>
 	        </a>
 	      </li>
@@ -44,11 +75,32 @@
 
 	<!-- Main Content -->
   	<div class="container-fluid">
-  		
+  		<!-- Main Image -->
+  		<div class="row ml-md-5 mr-md-5 hero-imgs">
+  			<div class="col-sm-12 col-md-12 pl-md-0 pr-md-0 ml-0 mr-0">
+  				<div class="primary-img">
+	  				<img src="../img/london-ts2b.png" class="img-fluid d-block" alt="Responsive image">
+	  			</div>
+  			</div>
+  		</div>
+
+  		<!-- Tag Line -->
+		<div class="row ml-md-5 mr-md-5 pt-5 pb-5 ">
+			<div class="col-12 pt-3 pb-5 text-center">
+				<span class="align-middle tag-line underline-tag">ABOUT</span>
+			</div>
+			<div class="col-12 pt-5 pb-5 text-center">
+				<div class="col-9 pb-5 mx-auto">
+					<span class="align-middle tag-line">
+						Apel Capital is a full-service investment banking and brokerage firm offering tailored investment advice to institutions, as well as high net worth individual investors globally.
+					</span>	
+				</div>			
+			</div>
+		</div>
 	</div>
     
     <!-- Footer For Tablet & Desktop -->
-	<footer class="footer px-5 py-4 d-none d-md-block">
+	<footer class="footer px-5 py-4 pt-5 d-none d-md-block">
 		<div class="row align-items-center">
 		    <div class="col text-center">
 		      <div class="img-holder pt-4 pb-4">
@@ -112,5 +164,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
   </body>
 </html>
