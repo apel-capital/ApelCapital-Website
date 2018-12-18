@@ -66,6 +66,15 @@ nav .login-btn:hover{
 	color: white;
 }
 
+.navbar-toggle {
+      border: none;
+      outline: none;
+}
+
+.navbar-light .navbar-toggler{
+	border-color: transparent;
+}
+
 
 /* The Overlay (background) */
 .overlay {
@@ -179,11 +188,6 @@ footer.footer-m{
 
 /* Media Queries */
 @media only screen and (max-width : 768px) {
-	.navbar-toggle {
-      border: none;
-      outline: none;
-    }
-    
 	.navbar-brand{
 			font-size: 20pt;
 	}
