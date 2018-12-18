@@ -37,7 +37,7 @@ body, html{
 
 .navbar-brand{
 	font-family: Arial;
-	font-size: 25pt;
+	font-size: 22pt;
 	font-weight: bold;
 }
 
@@ -65,7 +65,6 @@ nav .login-btn:hover{
 	padding-top: 5px;
 	color: white;
 }
-
 
 
 /* The Overlay (background) */
@@ -138,7 +137,7 @@ nav .login-btn:hover{
 /* Tag Line */
 .tag-line, .mobile-tag{
 	font-family: FuturaBook;
-	font-size: 25pt;
+	font-size: 22pt;
 }
 
 .mobile-tag{
@@ -153,6 +152,10 @@ nav .login-btn:hover{
 
 .font-medium{
 	font-family: FuturaMedium;
+}
+
+.phone-num, .phone-num:hover, .phone-num:link{
+	color: rgba(31,31,31,1.0) !important;
 }
 
 /* Footer */
@@ -172,4 +175,16 @@ footer.footer-m{
 /* Spacer */
 .sm-space{
 	padding: .1em;
+}
+
+/* Media Queries */
+@media only screen and (max-width : 768px) {
+	.navbar-toggle {
+      border: none;
+      outline: none;
+    }
+    
+	.navbar-brand{
+			font-size: 20pt;
+	}
 }
