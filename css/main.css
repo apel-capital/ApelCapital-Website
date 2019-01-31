@@ -39,6 +39,9 @@ body, html{
 	font-family: Arial;
 	font-size: 22pt;
 	font-weight: bold;
+  background: url("../img/logo-desktop.png") no-repeat;
+  height: 50px;
+  width: 350px;
 }
 
 nav .nav-item{
@@ -48,13 +51,13 @@ nav .nav-item{
 }
 
 nav .login-btn{
-    background-color: rgba(72,160,218,0.7);
+    background-color: #005931;
     color: white;
     padding: 0 2em;
 }
 
 nav .login-btn:hover{
-	background-color: rgba(72,160,218,1.0);
+	background-color: #005931;
 }
 
 .login-mobile-holder{
@@ -190,6 +193,8 @@ footer.footer-m{
 @media only screen and (max-width : 768px) {
 	.navbar-brand{
 		font-size: 18pt;
+    background: url("../img/logo-mobile.png") no-repeat;
+    width: 250px;
 	}
 
   .inner-text{
