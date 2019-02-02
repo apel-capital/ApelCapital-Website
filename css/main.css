@@ -39,9 +39,10 @@ body, html{
 	font-family: Arial;
 	font-size: 22pt;
 	font-weight: bold;
-  background: url("../img/logo-desktop.png") no-repeat;
-  height: 50px;
-  width: 350px;
+}
+
+.navbar-brand img {
+  width: 75%;
 }
 
 nav .nav-item{
@@ -193,9 +194,12 @@ footer.footer-m{
 @media only screen and (max-width : 768px) {
 	.navbar-brand{
 		font-size: 18pt;
-    background: url("../img/logo-mobile.png") no-repeat;
-    width: 250px;
+    width: 50%;
 	}
+
+  .navbar-brand img{
+    width: 75%%;
+  }
 
   .inner-text{
     margin-top: -5em;
