@@ -207,7 +207,7 @@ footer.footer-m{
 	.navbar-brand{
 		font-size: 18pt;
     /*background: url("../img/logo-mobile.png") no-repeat;*/
-    width: 200px;
+    width: 200px !important;
 	}
 
   .navbar-brand img{
