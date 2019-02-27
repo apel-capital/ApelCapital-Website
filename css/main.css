@@ -210,6 +210,10 @@ footer.footer-m{
     width: 200px;
 	}
 
+  .navbar-brand img{
+    width: 75%%;
+  }
+
   .inner-text{
     margin-top: -5em;
   }
