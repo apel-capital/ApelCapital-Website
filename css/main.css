@@ -41,7 +41,7 @@ body, html{
 	font-weight: bold;
   /*background: url("../img/logo-desktop.png") no-repeat;*/
   height: 50px;
-  width: 350px;
+  width: 350px !important;
 }
 
 .navbar-brand img{
