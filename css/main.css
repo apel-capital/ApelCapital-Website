@@ -230,6 +230,14 @@ footer .rbc-footer {
     margin-top: -5em;
   }
 
+  .clearing .inner-text {
+    margin-top: 0;
+  }
+
+  .clearing .inner-text-img {
+    padding: 0;
+  }
+
   .inner-text span{
     font-size: 16pt;
   }
